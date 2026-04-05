@@ -33,6 +33,35 @@ Respecto al procesamiento de la señal adquirida, se tienen las siguientes etapa
 Se utiliza EMG superficial (sEMG) para el monitoreo de activación muscular. Para el caso del contexto planteado, se necesitan 4 canales: trapecio superior derecho, trapecio superior izquierdo, y opcionalmente erectores espinales bilaterales. Un número bajo de canales es suficiente para monitoreo muscular simple de manera eficiente [5].
 ![img_adquisicion](https://github.com/user-attachments/assets/67b5c867-d91f-4143-be6f-763d94df5a61)
 
+
+
+### 2. Amplificación
+
+
+La señal EMG de por sí es muy débil (0–10 mV). Una ganancia de 500- 1000 es óptima para una correcta amplificación. El amplificador debe tener alta razón de rechazo de modo común (CMRR) y alta impedancia de entrada (Zi) para minimizar el ruido, en especial en el contexto planteado, uno que no es tan controlado como lo es un laboratorio [5].
+
+
+### 3. Filtrado
+
+Filtro pasa-bandas: la mayoría de los estudios de monitoreo muscular usan entre 10–500 Hz, que es donde se concentra la energía útil de la señal sEMG. Usar 20 Hz como frecuencia de corte inferior es el mejor compromiso para eliminar artefactos de movimiento sin perder información útil, información importante en este caso porque los participantes estarán en movimiento dentro del transporte público.
+
+Filtro notch: a 60 Hz (en Perú 60 Hz) para eliminar la interferencia de la línea eléctrica, que en transporte público podría ser considerable.
+
+Orden del filtro: Butterworth de 2do o 4to orden (los más usados) [5]. 
+
+### 4. Conversión analógica-digital 
+
+La frecuencia de muestreo más documentada es 1000 Hz, consistente con el teorema de Nyquist para señales sEMG que tienen su mayor energía hasta ~500 Hz. Para la resolución del ADC, con 8–12 bits se trabaja sin problemas [5].
+
+### 5. Cálculo del RMS
+
+Una vez digitalizada la señal, se realiza el proceso de obtención del IAM:
+Aplicar ventana deslizante de 250 ms sobre la señal filtrada y rectificada
+Calcular el RMS por ventana en cada canal
+Promediar el RMS a lo largo de todo el trayecto para obtener un valor representativo por músculo y por sesión
+
+Por último, usando los valores obtenidos de RMS, se calcula el IAM.
+
 ## Plan de actividades
 ### Fase 1: Preparación y marco ético
 
