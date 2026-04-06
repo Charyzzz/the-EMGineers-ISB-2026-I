@@ -64,7 +64,7 @@ Por último, usando los valores obtenidos de RMS, se calcula el IAM.
 
 ## Plan de actividades
 
-![image alt](https://github.com/Charyzzz/the-EMGineers-ISB-2026-I/blob/cdf885507e0dc13867e976d33f91f6b04b2f2020/Proyecto/Se%C3%B1ales%20plan%20de%20trabajo)
+![image alt](https://github.com/Charyzzz/the-EMGineers-ISB-2026-I/blob/cdf885507e0dc13867e976d33f91f6b04b2f2020/Proyecto/Se%C3%B1ales%20plan%20de%20trabajo.jpg)
 
 ### Fase 1: Preparación y marco ético
 
