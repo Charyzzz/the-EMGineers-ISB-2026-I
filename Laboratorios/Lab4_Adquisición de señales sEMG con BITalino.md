@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/cc5dab89-ce80-4ae2-9ee8-ed3afe0d7a84
 # LAB 4: Adquisición de señales sEMG con BITalino
 ## 1. Introducción
 El presente laboratorio trabajó la adquisición y análisis de señales biomédicas como EMG utilizando el kit BITalino (r)evolution Board y el software OpenSignals (r)evolution. Estas herramientas permiten la captura y visualización de señales fisiológicas mediante electrodos conectados al músculo.
@@ -84,7 +82,7 @@ Con ayuda del software OpenSignals (r)evolution se importaron las señales cruda
 **a. Ejercicio 1 – Curl de bíceps:**
 | **Primera toma** | **Segunda toma** | **Tercera toma** |
 |------------------|------------------|------------------|
-| <img width="786" height="415" alt="primera_toma" src="https://github.com/user-attachments/assets/0c8353f8-30e7-4826-b307-2a681783e4b3" /> | <img src="https://github.com/user-attachments/assets/bd78f8a6-5d9e-4fe4-9ea6-eabb752bf703" width="250"/> | <img src="https://github.com/user-attachments/assets/d77e09e5-85df-4734-912e-4fa5fa9222ea" width="250"/> |
+| <img width="600" height="400" alt="primera_toma" src="https://github.com/user-attachments/assets/0c8353f8-30e7-4826-b307-2a681783e4b3" /> | <img src="https://github.com/user-attachments/assets/bd78f8a6-5d9e-4fe4-9ea6-eabb752bf703" width="600"/> | <img src="https://github.com/user-attachments/assets/d77e09e5-85df-4734-912e-4fa5fa9222ea" width="600"/> |
 | https://github.com/user-attachments/assets/e9a9ed3d-07c8-4932-99e1-79b0f457e0c5 | https://github.com/user-attachments/assets/eceda03f-e60c-4ec4-9cc7-454650f6fa4b | 
 https://github.com/user-attachments/assets/0762b003-6127-404a-99e5-076aec44c52a |
 
@@ -93,6 +91,7 @@ https://github.com/user-attachments/assets/0762b003-6127-404a-99e5-076aec44c52a 
 
 **b. Ejercicio 2 - Curl martillo:**
 |  **Video**  | **Señal en OpenSignals** |
+|-------------|--------------------------|
 | https://github.com/user-attachments/assets/b9bd6c89-998f-4593-b312-d6b748f7e981 | <img width="400" height="250" alt="ejercicio2" src="https://github.com/user-attachments/assets/f492de79-dafb-459f-99fa-5381b54f6ee3" /> |
 **c. Ejercicio 3 - Sentadilla:**
 |  **Video**  | **Señal en OpenSignals** |
