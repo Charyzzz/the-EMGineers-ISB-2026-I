@@ -136,7 +136,7 @@ Las señales adquiridas fueron pasadas a Python para plotear el momento de la co
 
 #### 2.5.4. Archivo de datos de las señales adquiridas
 -   [Documentos (.rar)](Laboratorios/documentos/documentos_signals.rar)
--   Programa de ploteo (Jupyter Notebook)
+-   [Programa de ploteo (Jupyter Notebook)] (Laboratorios/documentos/ploteo_lab4.ipynb)
 
 ##  3. Discusión
 ### 3.1. Análisis de resultados
@@ -194,7 +194,6 @@ La amplitud de la señal es una manifestación eléctrica de los potenciales de 
 3. Hermens HJ, Freriks B, Disselhorst-Klug C, Rau G. Development of recommendations for SENIAM surface electromyography sensors and sensor placement procedures. J Electromyogr Kinesiol. 2000;10(5):361-374.
 4. De Luca CJ. The use of surface electromyography in biomechanics. J Appl Biomech. 1997;13(2):135-163.
 5. Konrad P. The ABC of EMG: a practical introduction to kinesiological electromyography. Scottsdale (AZ): Noraxon USA; 2005.
-6. 
-Winter DA. Biomechanics and motor control of human movement. 4th ed. Hoboken (NJ): Wiley; 2009.
+6. Winter DA. Biomechanics and motor control of human movement. 4th ed. Hoboken (NJ): Wiley; 2009.
 
 
