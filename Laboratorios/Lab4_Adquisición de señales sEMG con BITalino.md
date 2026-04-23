@@ -71,3 +71,60 @@ Las señales almacenadas se procesaron con un script en Google Colab y python ut
 -   **Rectificación:** completa (valor absoluto).
 -    **Cálculo del RMS:** ventana deslizante de 250 ms con solapamiento de 125 ms.
 -   **Normalización:** cada valor RMS se expresó como porcentaje de la contracción voluntaria máxima (%CVM) obtenida en el ciclo más intenso.
+
+### 2.4. Procedimiento experimental
+#### 2.5.1. Ploteo de las señales en OpenSignals
+Con ayuda del software OpenSignals (r)evolution se importaron las señales crudas tomadas en cada ejercicio con el fin de visualizarlas gráficamente. Esto nos sirve para identificar la morfología de la señal e identificar cambios en ella al reaccionar al movimiento de los músculos.
+
+**a. Ejercicio 1 – Curl de bíceps:**
+|  **Primera toma**  | **Segunda toma** | **Tercera toma** |
+|:------------:|:---------------:|:------------:|
+**b. Ejercicio 2 - Curl martillo:**
+|  **Video**  | **Señal en OpenSignals** |
+|:------------:|:---------------:|:------------:|
+**c. Ejercicio 3 - Sentadilla:**
+|  **Video**  | **Señal en OpenSignals** |
+|:------------:|:---------------:|:------------:|
+#### 2.5.2. Ploteo de las señales en Python
+Las señales adquiridas fueron pasadas a Python para plotear el momento de la contracción muscular.
+
+**a. Ejercicio 1: Curl de bíceps**
+**b. Ejercicio 2: Curl martillo**
+**c. Ejercicio 3: Sentadilla**
+
+#### 2.5.3. Archivo de datos de las señales adquiridas
+-   Documentos
+-   Programa de ploteo (Jupyter Notebook)
+
+## 3. Discusión
+### 3.1. Análisis de resultados
+**Ejercicio 1 - Curl de bíceps**
+En las tres tomas del curl de bíceps se observa la activación del músculo bíceps braquial durante la flexión del mismo. La señal EMG muestra momentos de gran amplitud, esto nos indica mayor activación del músculo y momentos de poca amplitud indicando relajación del músculo. En la primera toma los picos de amplitud alcanzan aproximadamente (valor que no veo), mientras que en las zonas de reposo la señal se mantiene cerca del valor basal. Esto es consistente con el reclutamiento progresivo de unidades motoras durante la contracción isotónica. En la segunda y tercera toma se observa cierta variabilidad durante las repeticiones, esto puede atribuirse a la fatiga muscular acumulada o ligeras diferencias en la ejecución del ejercicio.
+La FFT del ejercicio muestra que la mayor parte de la energía espectral se concentra entre 20 y 150 Hz, que es el rango típico de actividad EMG superficial para músculos de miembro superior. El pico visible alrededor de 60 Hz en la FFT podría corresponder a interferencia de la red, esto es esperable en entornos no completamente aislados electromagnéticamente.
+
+**Ejercicio 2 - Curl martillo**
+La señal del curl martillo presenta un patrón similar al curl de bíceps, con algunas variaciones. Al mantener el antebrazo en posición neutra, la activación del bíceps braquial es parcialmente reducida en favor del músculo braquiorradial y braquial anterior, que son los principales en esta posición. Esto explica por qué visualmente la forma de la señal difiere ligeramente entre ambos ejercicios. La amplitud máxima registrada es comparable, picos que no conozco y la FFT muestra un comportamiento similar con mayor potencia en frecuencias bajas y caída progresiva hacia frecuencias altas.
+
+**Ejercicio 3 - Sentadilla (cuádriceps)**
+La señal EMG del cuádriceps durante la sentadilla muestra activación coherente con las fases excéntrica y concéntrica del movimiento. La fase de mayor activación muscular (número que no se)concentra aproximadamente entre las muestras num y num, lo que corresponde a la fase concéntrica, retorno a posición de pie, donde el cuádriceps trabaja como extensor de rodilla contra gravedad. La fase excéntrica, descenso,también muestra activación, aunque de menor amplitud. El cuádriceps, al ser un músculo de gran volumen, genera señales de mayor amplitud y con mayor contenido de frecuencias bajas comparado con músculos más pequeños.
+### 3.2. Limitaciones (basado en referencias)
+**Ruido e interferencia electromagnética**
+A pesar de haber apagado los celulares y tener temperatura controlada, el entorno del laboratorio no es un ambiente clínicamente aislado. La presencia de equipos eléctricos cercanos puede introducir ruido de línea a 60 Hz, visible en las FFT. Hermens et al. establecen que el control del ambiente electromagnético es crítico para la validez de las mediciones sEMG superficiales [1].
+
+**Colocación de electrodos y variabilidad inter-sujeto**
+La colocación manual de electrodos introduce variabilidad en la señal adquirida. Pequeñas diferencias en la distancia entre electrodos, la posición sobre el músculo o el estado de la piel afectan directamente la amplitud y morfología de la señal. De Luca señala que incluso desplazamientos de pocos milímetros en la posición del electrodo pueden generar diferencias de hasta 30% en la amplitud registrada [2]. Adicionalmente, el proyecto SENIAM recomienda estandarizar la preparación cutánea mediante abrasión y limpieza con alcohol para reducir la impedancia electrodo-piel por debajo de 10 kΩ [1].
+
+**Normalización y MVC**
+La contracción voluntaria máxima (MVC) utilizada como referencia para la normalización en %CVM fue obtenida dentro del mismo protocolo experimental. Sin embargo, lograr una MVC verdadera requiere motivación verbal y familiarización previa. Konrad advierte que si la MVC registrada no corresponde al esfuerzo máximo real del sujeto, todos los valores normalizados quedarán sobreestimados, comprometiendo la comparabilidad entre sujetos y condiciones [3].
+
+**Artefactos de movimiento**
+Durante ejercicios dinámicos como la sentadilla el movimiento del cable y los electrodos respecto a la piel genera artefactos de baja frecuencia. Si bien el filtro pasa-banda desde 20 Hz ayuda a mitigarlos, Winter señala que en contracciones dinámicas estos artefactos pueden solaparse con componentes reales de la señal, especialmente cuando la velocidad del movimiento es elevada [4].
+
+## 4. Referencias
+- [1] H. J. Hermens, B. Freriks, C. Disselhorst-Klug, y G. Rau,
+   "Development of recommendations for SENIAM surface electromyography
+      sensors and sensor placement procedures," Journal of Electromyography
+   and Kinesiology, vol. 10, no. 5, pp. 361–374, 2000.
+ - [2] C. J. De Luca, "The use of surface electromyography in biomechanics," Journal of Applied Biomechanics, vol. 13, no. 2, pp. 135–163, 1997.
+- [3] P. Konrad, The ABC of EMG: A practical introduction to kinesiological electromyography. Noraxon USA, 2005.
+- [4] D. A. Winter, Biomechanics and motor control of human movement, 4th ed. Wiley, 2009.
