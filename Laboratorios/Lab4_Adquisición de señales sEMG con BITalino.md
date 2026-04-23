@@ -27,6 +27,9 @@ Plataforma integrada para adquisición de señales fisiológicas. Incluye:
 
 #### Laptop como módulo de procesamiento de datos
 Laptop con Windows 11 y el software OpenSignals (r)evolution instalado para la adquisición, visualización y almacenamiento de las señales.
+<div align="center">
+<img width="800" height="200" alt="opensignals_logo_small-1024x241" src="https://github.com/user-attachments/assets/606cad60-55d1-401c-9253-378ab69e5927" />
+</div>
 
 ### 2.3. Sujetos de estudio
 Participaron voluntariamente dos estudiantes del curso _Introducción a Señales Médicas_ de la Universidad Peruana Cayetano Heredia, sin antecedentes de lesiones musculoesqueléticas en miembros superiores o inferiores.
@@ -70,11 +73,7 @@ Para cada ejercicio se siguió el protocolo basado en el manual HomeGuide #1 de 
 -   Todas las mediciones se realizaron en un ambiente con temperatura controlada (20–22 °C) y sin fuentes de interferencia electromagnética evidentes (celulares apagados, laptops alejadas del cable de alimentación).
 
 **Visualización de señales**
-Las señales almacenadas se procesaron con un script en Google Colab y python utilizando las siguientes etapas para visualizar su comportamiento durante la construcción muscular:
--   **Filtrado:** filtro Butterworth pasa banda de 4° orden entre 20 y 500 Hz, seguido de un filtro notch de 2° orden a 60 Hz.
--   **Rectificación:** completa (valor absoluto).
--    **Cálculo del RMS:** ventana deslizante de 250 ms con solapamiento de 125 ms.
--   **Normalización:** cada valor RMS se expresó como porcentaje de la contracción voluntaria máxima (%CVM) obtenida en el ciclo más intenso.
+Las señales almacenadas se procesaron con un script en Google Colab y python para visualizar su comportamiento durante la construcción muscular.
 
 ### 2.4. Procedimiento experimental
 #### 2.5.1. Ploteo de las señales en OpenSignals
@@ -82,7 +81,10 @@ Con ayuda del software OpenSignals (r)evolution se importaron las señales cruda
 
 **a. Ejercicio 1 – Curl de bíceps:**
 |  **Primera toma**  | **Segunda toma** | **Tercera toma** |
-|:------------:|:---------------:|:------------:|
+|<img width="786" height="415" alt="primera_toma" src="https://github.com/user-attachments/assets/6559e8ae-c5b3-4740-bd0b-ebb116e0634d" />
+|<img width="751" height="403" alt="segunda_toma" src="https://github.com/user-attachments/assets/bd78f8a6-5d9e-4fe4-9ea6-eabb752bf703" />
+|<img width="749" height="399" alt="tercera_toma" src="https://github.com/user-attachments/assets/d77e09e5-85df-4734-912e-4fa5fa9222ea" />
+|
 **b. Ejercicio 2 - Curl martillo:**
 |  **Video**  | **Señal en OpenSignals** |
 |:------------:|:---------------:|:------------:|
