@@ -160,7 +160,7 @@ La señal EMG del cuádriceps durante la sentadilla muestra activación coherent
 
   
 ---
-### 3.2. Limitaciones (basado en referencias)
+### 3.2. Limitaciones
 
 **Ruido e interferencia electromagnética**
 A pesar de haber apagado los celulares y tener temperatura controlada, el entorno del laboratorio no es un ambiente clínicamente aislado. La presencia de equipos eléctricos cercanos puede introducir ruido de línea a 60 Hz, visible en las FFT. Hermens et al. establece que el control del ambiente electromagnético es crítico para la validez de las mediciones sEMG superficiales (3).
