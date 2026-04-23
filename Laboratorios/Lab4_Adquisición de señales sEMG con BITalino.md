@@ -88,7 +88,6 @@ Con ayuda del software OpenSignals (r)evolution se importaron las señales cruda
 |  **Video**  | **Señal en OpenSignals** |
 |:------------:|:---------------:|:------------:|
 
-</div>
 
 #### 2.5.2. Ploteo de las señales en Python
 Las señales adquiridas fueron pasadas a Python para plotear el momento de la contracción muscular.
