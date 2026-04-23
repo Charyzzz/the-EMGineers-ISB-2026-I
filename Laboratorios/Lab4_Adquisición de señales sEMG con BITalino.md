@@ -179,6 +179,7 @@ Durante ejercicios dinámicos como la sentadilla el movimiento del cable y los e
 En esta sección encontrarás algunas preguntas para que trabajes durante tu sesión en casa y explores el sensor EMG.
 
 - **Q1. Which are the significant frequencies for EMG acquisitions? Are they the same in all body areas such as facial area?**
+Sin embargo, no son iguales en todas las regiones del cuerpo. En músculos faciales (EMG facial), el espectro suele desplazarse hacia frecuencias más altas y amplitudes menores, debido a menor tamaño de fibras, musculares, menor profundidad del músculo, diferentes propiedades de conducción. Estudios clásicos de Carlo J. De Luca muestran que las características espectrales dependen de la anatomía muscular y la distancia electrodo-músculo.
 - **Q2. Which kind of filter is essential when working with EMG signals? Why do we need to apply such a filter?**
 Un filtro pasa bajas es esencial para el trabajo con señales EMG, este elimina ruido no deseado de la señal y lo adecúa solo a las frecuencias que contienen actividad muscular.
 - **Q3. How does the amplitude differ in each muscular contraction? Is there a difference for body locations?**
