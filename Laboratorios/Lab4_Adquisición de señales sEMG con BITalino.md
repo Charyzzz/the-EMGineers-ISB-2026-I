@@ -135,7 +135,7 @@ Las señales adquiridas fueron pasadas a Python para plotear el momento de la co
 | <img width="584" height="443" alt="grap3" src="https://github.com/user-attachments/assets/ce65a018-3ffa-4839-8fad-1e1b80725939" /> | <img width="575" height="445" alt="fft3" src="https://github.com/user-attachments/assets/46a26249-9cb8-42f1-bd48-f61bdf08d79f" /> |
 
 #### 2.5.4. Archivo de datos de las señales adquiridas
--   Documentos (.txt)
+-   [Documentos (.rar)](Laboratorios/documentos/documentos_signals.rar)
 -   Programa de ploteo (Jupyter Notebook)
 
 ##  3. Discusión
