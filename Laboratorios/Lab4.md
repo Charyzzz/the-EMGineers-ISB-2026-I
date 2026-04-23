@@ -17,8 +17,8 @@ Durante la práctica, se realizó la configuración del sistema de adquisición,
 Plataforma integrada para adquisición de señales fisiológicas. Incluye:
 -   Placa BITalino (r)evolution
 -   Electrodos:
--- Cable de 3 vías (para EMG/ECG/EEG) de 30 cm.
--- Cable de 2 vías (para EDA) de 10 cm.
+-   Cable de 3 vías (para EMG/ECG/EEG) de 30 cm.
+-   Cable de 2 vías (para EDA) de 10 cm.
 -   Batería Li-Po 3.7 V, 500 mAh
 
 #### Laptop como módulo de procesamiento de datos
