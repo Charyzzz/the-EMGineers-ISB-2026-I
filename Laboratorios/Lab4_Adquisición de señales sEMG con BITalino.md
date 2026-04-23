@@ -81,10 +81,7 @@ Con ayuda del software OpenSignals (r)evolution se importaron las señales cruda
 
 **a. Ejercicio 1 – Curl de bíceps:**
 |  **Primera toma**  | **Segunda toma** | **Tercera toma** |
-|<img width="786" height="415" alt="primera_toma" src="https://github.com/user-attachments/assets/6559e8ae-c5b3-4740-bd0b-ebb116e0634d" />
-|<img width="751" height="403" alt="segunda_toma" src="https://github.com/user-attachments/assets/bd78f8a6-5d9e-4fe4-9ea6-eabb752bf703" />
-|<img width="749" height="399" alt="tercera_toma" src="https://github.com/user-attachments/assets/d77e09e5-85df-4734-912e-4fa5fa9222ea" />
-|
+|<img width="786" height="415" alt="primera_toma" src="https://github.com/user-attachments/assets/6559e8ae-c5b3-4740-bd0b-ebb116e0634d" /> |<img width="751" height="403" alt="segunda_toma" src="https://github.com/user-attachments/assets/bd78f8a6-5d9e-4fe4-9ea6-eabb752bf703" /> |<img width="749" height="399" alt="tercera_toma" src="https://github.com/user-attachments/assets/d77e09e5-85df-4734-912e-4fa5fa9222ea" /> |
 **b. Ejercicio 2 - Curl martillo:**
 |  **Video**  | **Señal en OpenSignals** |
 |:------------:|:---------------:|:------------:|
