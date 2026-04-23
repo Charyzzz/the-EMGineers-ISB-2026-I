@@ -79,15 +79,12 @@ Con ayuda del software OpenSignals (r)evolution se importaron las señales cruda
 **a. Ejercicio 1 – Curl de bíceps:**
 |  **Primera toma**  | **Segunda toma** | **Tercera toma** |
 |:------------:|:---------------:|:------------:|
-
 **b. Ejercicio 2 - Curl martillo:**
 |  **Video**  | **Señal en OpenSignals** |
 |:------------:|:---------------:|:------------:|
-
 **c. Ejercicio 3 - Sentadilla:**
 |  **Video**  | **Señal en OpenSignals** |
 |:------------:|:---------------:|:------------:|
-
 
 #### 2.5.2. Ploteo de las señales en Python
 Las señales adquiridas fueron pasadas a Python para plotear el momento de la contracción muscular.
