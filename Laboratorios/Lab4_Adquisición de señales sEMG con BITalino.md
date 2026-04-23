@@ -121,6 +121,19 @@ La contracción voluntaria máxima (MVC) utilizada como referencia para la norma
 **Artefactos de movimiento**
 Durante ejercicios dinámicos como la sentadilla el movimiento del cable y los electrodos respecto a la piel genera artefactos de baja frecuencia. Si bien el filtro pasa-banda desde 20 Hz ayuda a mitigarlos, Winter señala que en contracciones dinámicas estos artefactos pueden solaparse con componentes reales de la señal, especialmente cuando la velocidad del movimiento es elevada [4].
 
+### 3.3. Quiz
+In this section you can find some questions for you to work on during your Home Session and to explore the EMG sensor.
+
+- **Q1. Which are the significant frequencies for EMG acquisitions? Are they the same in all body areas such as facial area?**
+- **Q2. Which kind of filter is essential when working with EMG signals? Why do we need to apply such a filter?**
+Un filtro pasa bajas es esencial para el trabajo con señales EMG, este elimina ruido no deseado de la señal y lo adecúa solo a las frecuencias que contienen actividad muscular.
+- **Q3. How does the amplitude differ in each muscular contraction? Is there a difference for body locations?**
+La amplitud de la señal EMG varía según el tamaño del músculo y la cantidad de fibras musculares involucradas, los músculos más grandes generan voltajes mayores y los más pequeños generan voltajes menores. Las señales suelen estar en el rango de milivoltios. Además, durante un experimento, las fases de activación muestran amplitudes distintas dependiendo de la intensidad de la contracción. Por ejemplo:
+En la segunda toma del curl de bíceps podemos ver en qué momento se recluta mayor número de fibras musculares y saber en qué parte del ejercicio estaba.
+- **Q4. Show a screenshot of a relevant portion of Electromyography (EMG) data within the experiment proposed on Section D of a facial muscle of interest. Does this signal correspond to what you expected? Why? Which emotion and action did you perform to trigger the muscle? Which muscle did you trigger?**
+- **Q5. To the best of your knowledge, does the EMG amplitude equal to the amount of force that you have generated with your muscle?**
+La amplitud de la señal es una manifestación eléctrica de los potenciales de acción y dependen del número de fibras musculares activadas. Si bien un aumento en la amplitud refleja una mayor actividad muscular y generalmente más fuerza, no se puede asegurar que sean iguales, sino que la amplitud es un indicador de la activación de las fibras durante la contracción.
+
 ## 4. Referencias
 - [1] H. J. Hermens, B. Freriks, C. Disselhorst-Klug, y G. Rau,
    "Development of recommendations for SENIAM surface electromyography
