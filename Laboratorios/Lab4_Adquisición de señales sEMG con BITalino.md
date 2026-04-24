@@ -175,19 +175,20 @@ La contracción voluntaria máxima (MVC) utilizada como referencia para la norma
 Durante ejercicios dinámicos como la sentadilla el movimiento del cable y los electrodos respecto a la piel genera artefactos de baja frecuencia. Si bien el filtro pasa-banda desde 20 Hz ayuda a mitigarlos, Winter señala que en contracciones dinámicas estos artefactos pueden solaparse con componentes reales de la señal, especialmente cuando la velocidad del movimiento es elevada (6).
 
 ---
-### 3.3. Quiz
+### 3.3. Quiz (HomeGuide1_EMG)
 En esta sección encontrarás algunas preguntas para que trabajes durante tu sesión en casa y explores el sensor EMG.
 
 - **Q1. Which are the significant frequencies for EMG acquisitions? Are they the same in all body areas such as facial area?**
-Sin embargo, no son iguales en todas las regiones del cuerpo. En músculos faciales (EMG facial), el espectro suele desplazarse hacia frecuencias más altas y amplitudes menores, debido a menor tamaño de fibras, musculares, menor profundidad del músculo, diferentes propiedades de conducción. Estudios clásicos de Carlo J. De Luca muestran que las características espectrales dependen de la anatomía muscular y la distancia electrodo-músculo (7).
+Las frecuencias más relevantes en el EMG  superficial varían entre [20 - 500] Hz, con mayor incidencia energética entre [50 - 150] Hz (7,8), 
+En los ejercicios de curl de bíceps, curl martillo y sentadilla se centran entre 40 y 60 Hz, pero en músculos encargados de motricidad más fina como los de la cara suelen presentar picos entre 80 y 250 Hz teniendo una frecuencia media más alta y una señal más limpia por la proximidad superficial de la evaluación (9).
+
+
 - **Q2. Which kind of filter is essential when working with EMG signals? Why do we need to apply such a filter?**
-Un filtro pasa bajas es esencial para el trabajo con señales EMG, este elimina ruido no deseado de la señal y lo adecúa solo a las frecuencias que contienen actividad muscular.
+Un filtro pasa bajas, usualmente entre 20 y 450 Hz, es esencial para el trabajo con señales EMG, este elimina ruido no deseado de la señal y lo adecúa solo a las frecuencias que contienen actividad muscular (10,11). Aparte de este se usa un filtro notch, que elimina frecuencias específicas, en 60 Hz para eliminar las interferencias de la red eléctrica (11).
 - **Q3. How does the amplitude differ in each muscular contraction? Is there a difference for body locations?**
-La amplitud de la señal EMG varía según el tamaño del músculo y la cantidad de fibras musculares involucradas, los músculos más grandes generan voltajes mayores y los más pequeños generan voltajes menores. Las señales suelen estar en el rango de milivoltios. Además, durante un experimento, las fases de activación muestran amplitudes distintas dependiendo de la intensidad de la contracción. Por ejemplo:
-En la segunda toma del curl de bíceps podemos ver en qué momento se recluta mayor número de fibras musculares y saber en qué parte del ejercicio estaba.
-- **Q4. Show a screenshot of a relevant portion of Electromyography (EMG) data within the experiment proposed on Section D of a facial muscle of interest. Does this signal correspond to what you expected? Why? Which emotion and action did you perform to trigger the muscle? Which muscle did you trigger?**
-- **Q5. To the best of your knowledge, does the EMG amplitude equal to the amount of force that you have generated with your muscle?**
-La amplitud de la señal es una manifestación eléctrica de los potenciales de acción y dependen del número de fibras musculares activadas. Si bien un aumento en la amplitud refleja una mayor actividad muscular y generalmente más fuerza, no se puede asegurar que sean iguales, sino que la amplitud es un indicador de la activación de las fibras durante la contracción.
+La amplitud de la señal EMG varía según el tamaño del músculo y la cantidad de fibras musculares involucradas, los músculos más grandes generan voltajes mayores y los más pequeños generan voltajes menores (8). Las señales suelen estar en el rango de milivoltios. Además, durante un experimento, las fases de activación muestran amplitudes distintas dependiendo de la intensidad de la contracción (7). Por ejemplo, en la segunda toma del curl de bíceps podemos ver en qué momento se recluta mayor número de fibras musculares y saber en qué parte del ejercicio estaba.
+- **Q4. To the best of your knowledge, does the EMG amplitude equal to the amount of force that you have generated with your muscle?**
+La amplitud de la señal es una manifestación eléctrica de los potenciales de acción y dependen del número de fibras musculares activadas. Si bien un aumento en la amplitud refleja una mayor actividad muscular y generalmente más fuerza, no se puede asegurar que sean iguales, sino que la amplitud es un indicador de la activación de las fibras durante la contracción (8).
 
 ## 4. Referencias
 1. Phinyomark A, Thongpanja S, Hu H, Phukpattaranont P, Tukulakan K. Time-dependent EMG power spectrum parameters of biceps brachii during fatiguing isometric contraction. In: 2012 IEEE-EMBS Conference on Biomedical Engineering and Sciences (IECBES); 2012; Langkawi, Malaysia. p. 953-958.
@@ -196,5 +197,9 @@ La amplitud de la señal es una manifestación eléctrica de los potenciales de 
 4. De Luca CJ. The use of surface electromyography in biomechanics. J Appl Biomech. 1997;13(2):135-163.
 5. Konrad P. The ABC of EMG: a practical introduction to kinesiological electromyography. Scottsdale (AZ): Noraxon USA; 2005.
 6. Winter DA. Biomechanics and motor control of human movement. 4th ed. Hoboken (NJ): Wiley; 2009.
-7. De Luca CJ. The use of surface electromyography in biomechanics. J Appl Biomech. 1997;13(2):135–163. doi:10.1123/jab.13.2.135
+7. Valli et al. 2024 EMG frequency analysis tutorial. Valli G, et al. Frequency analysis of the surface EMG signal: Best practices. J Electromyogr Kinesiol. 2024;79:102937.
+8. Farina et al. 2023 surface EMG developments. Farina D, et al. Current developments in surface electromyography. Turk J Med Sci. 2023;53:
+9. Mueller et al. 2022 facial EMG study. Mueller N, Trentzsch V, Grassme R, Guntinas-Lichius O, Volk GF, Anders C. High-resolution surface electromyographic activities of facial muscles during mimic movements in healthy adults: a prospective observational study. Front Hum Neurosci. 2022;16:1029415. 
+10. Freitas & Kohn 2024 EMG spectral characterization. de Freitas PB, Kohn AF. Spectral characterization of human EMG signals. PLoS One. 2024.
+11. Phan et al. 2025 EMG sensor design filtering. Phan TTT, et al. A new design of an EMG sensor for movement detection. 2025.
 
