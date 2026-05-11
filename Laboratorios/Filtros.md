@@ -69,6 +69,7 @@ Su aplicación es amplia en señales ECG y EEG, donde el contenido espectral rel
 | Implementación | FIR o IIR |
 
 <img width="1195" height="503" alt="Image" src="https://github.com/user-attachments/assets/6bc51520-ac0c-4410-8c54-db0f8c143c27" />
+<img width="1162" height="441" alt="Image" src="https://github.com/user-attachments/assets/ec014c5d-9a9d-422a-85a2-d70ebef615bb" />
 
 ---
 
