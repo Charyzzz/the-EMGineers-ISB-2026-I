@@ -102,6 +102,8 @@ En señales EMG, donde la actividad muscular se distribuye principalmente entre 
 | Ruido eliminado | Ruido de baja y alta frecuencia, artefactos de movimiento |
 | Frecuencias típicas | EMG: 20–450 Hz · EEG: 0.5–40 Hz |
 | Implementación | Combinación de filtros pasa alta y pasa baja |
+<img width="1241" height="585" alt="image" src="https://github.com/user-attachments/assets/a9b279ca-696b-40e6-a9f7-fb40af1cb149" />
+<img width="1177" height="413" alt="Image" src="https://github.com/user-attachments/assets/f285ae76-f9c6-4298-bb5b-eb053622415e" />
 
 ---
 
@@ -117,6 +119,8 @@ La frecuencia de interferencia varía según la región geográfica: 50 Hz en Eu
 | Ruido eliminado | Interferencia de red eléctrica (*powerline noise*) |
 | Frecuencias típicas | 50 Hz (Europa/Asia) · 60 Hz (América) |
 | Implementación | IIR (alta selectividad) |
+<img width="1237" height="543" alt="Image" src="https://github.com/user-attachments/assets/d7e4208e-ce7f-4963-9877-b5ad6190f08b" />
+<img width="1197" height="416" alt="Image" src="https://github.com/user-attachments/assets/f14f47a9-b0ce-4b9a-a289-f943d86204ac" />
 
 ---
 
@@ -132,6 +136,8 @@ Su principal aplicación es la remoción de artefactos oculares en registros EEG
 | Ruido eliminado | Artefactos oculares, movimiento, ruido no estacionario |
 | Frecuencias típicas | Variables según señal y algoritmo utilizado |
 | Implementación | Algoritmos LMS o RLS |
+<img width="1271" height="582" alt="Image" src="https://github.com/user-attachments/assets/2e72b0b2-f680-4413-904f-f65fd8ffecc7" />
+<img width="1255" height="347" alt="Image" src="https://github.com/user-attachments/assets/25425db1-7ede-44a3-8bc0-a5762ccbb3b2" />
 
 ---
 
@@ -147,6 +153,8 @@ Su respuesta gradual en la banda de transición lo hace apropiado para aplicacio
 | Ruido eliminado | Ruido de alta frecuencia, interferencia muscular, artefactos electrónicos, variaciones lentas |
 | Frecuencias típicas | ECG: 0.5–40 Hz · EEG: 0.5–50 Hz · EMG: 20–450 Hz |
 | Implementación | IIR (respuesta plana en banda de paso) |
+<img width="1227" height="517" alt="Image" src="https://github.com/user-attachments/assets/99a6fd30-4b3a-4f54-8a30-8e3321303996" />
+<img width="1198" height="470" alt="Image" src="https://github.com/user-attachments/assets/e2066e13-8501-4486-90b5-f149b35e9645" />
 
 ---
 
@@ -162,6 +170,8 @@ Su principal limitación es la falta de selectividad frecuencial fina: la frecue
 | Ruido eliminado | Ruido aleatorio, fluctuaciones rápidas, variaciones de alta frecuencia |
 | Frecuencias típicas | Depende del número de muestras y la frecuencia de muestreo |
 | Implementación | FIR no recursivo |
+<img width="1267" height="557" alt="Image" src="https://github.com/user-attachments/assets/43dbe572-2191-42bd-a802-1ce2594e5548" />
+<img width="1247" height="432" alt="Image" src="https://github.com/user-attachments/assets/e4f3fd42-0c0e-470e-ac57-11cac7d3bf1e" />
 
 ---
 
