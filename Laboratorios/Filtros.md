@@ -85,6 +85,8 @@ En señales EEG se emplea para eliminar componentes de muy baja frecuencia asoci
 | Ruido eliminado | Baseline wander, movimiento respiratorio, artefactos lentos |
 | Frecuencias típicas | ECG: 0.5 Hz · EEG: 0.1–1 Hz · EMG: 10–20 Hz |
 | Implementación | IIR (preferente) |
+<img width="1155" height="493" alt="Image" src="https://github.com/user-attachments/assets/90c08305-cbea-442e-b4e0-4184275151a1" />
+<img width="1205" height="411" alt="Image" src="https://github.com/user-attachments/assets/ccb00d8a-22a5-4489-9197-3c9da5e44741" />
 
 ---
 
