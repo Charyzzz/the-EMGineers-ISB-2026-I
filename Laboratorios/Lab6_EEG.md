@@ -270,4 +270,3 @@ Finalmente, el estudio se realizó sobre un único participante y con registros 
 
 9. PLUX Biosignals. *BITalino (r)evolution Lab Guide: HomeGuide #5 - Electroencephalography (EEG)*. Lisboa: PLUX Wireless Biosignals SA; 2021.
 
-10. Cohen MX. *Analyzing Neural Time Series Data: Theory and Practice*. Cambridge: MIT Press; 2014.
