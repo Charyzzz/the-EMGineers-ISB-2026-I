@@ -51,7 +51,7 @@ Se trabajó con una derivación reducida frontal referencial, conformada por tre
 **Figura 3.** Ubicación de los nodos en un EEG estándar.  
 F = frontal, Fp = frontal parietal, Fz = frontal medio, T = temporal, C = central, Cz = central medio, O = occipital y P = parietal. Enlace: https://www.researchgate.net/publication/308892147_Diagnosis_of_epilepsy_from_the_reconstruction_of_the_attractor_of_EEG
 
-**Figura 4.** Ejemplo de serie temporal correspondiente al EEG estándar de un paciente sano con los ojos abiertos. [a]
+**Figura 4.** Ejemplo de serie temporal correspondiente al EEG estándar de un paciente sano con los ojos abiertos.
 
 ---
 
