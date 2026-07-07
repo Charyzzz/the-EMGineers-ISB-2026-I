@@ -4,8 +4,6 @@
 durante una simulación de transporte público: estudio piloto mediante
 electromiografía de superficie.**
 
-Proyecto universitario — Introducción a Señales Biomédicas.
-
 ## Descripción
 
 Aplicación web interactiva desarrollada en **Streamlit** para visualizar y
@@ -39,9 +37,6 @@ Cada archivo `.txt` exportado por OpenSignals debe seguir el patrón:
 ```
 <condicion>_trapecio_<participante>.txt
 ```
-
-Ejemplos: `basal_trapecio_andre.txt`, `una_asa_trapecio_ale.txt`,
-`doble_asa_trapecio_sandro.txt`.
 
 Deben colocarse dentro de la carpeta `Datos/`. Las tres primeras líneas de
 cada archivo (cabecera de OpenSignals) se ignoran automáticamente. Las
@@ -93,8 +88,7 @@ La aplicación se abrirá automáticamente en el navegador
 
 ## Notas técnicas
 
-- El proyecto sigue una arquitectura modular sin variables globales
-  mutables: toda la configuración vive en `config.py` como constantes, y el
+- Toda la configuración de la app vive en `config.py` como constantes, y el
   estado de la sesión de usuario se maneja mediante `st.session_state` de
   Streamlit.
 - Los filtros se implementan con `scipy.signal` utilizando secciones de
