@@ -1,4 +1,4 @@
-# Análisis EMG — Estabilizadores del Tronco
+# Análisis EMG
 
 **Activación y asimetría bilateral de los músculos estabilizadores del tronco
 durante una simulación de transporte público: estudio piloto mediante
