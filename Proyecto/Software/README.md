@@ -15,17 +15,17 @@ Basal, Una Asa y Doble Asa.
 ## Estructura del proyecto
 
 ```
-Proyecto_EMG/
+Proyecto/
 ├── app.py                  # Aplicación principal Streamlit
 ├── config.py                # Constantes, rutas y parámetros globales
 ├── utils/
-│   ├── lectura.py           # Localización, lectura y conversión ADC->mV de los archivos .txt
-│   ├── procesamiento.py     # Orquestación del pipeline de filtros, recorte y normalización
+│   ├── lectura.py           # Localización, lectura y conversión
+│   ├── procesamiento.py     # Pipeline de filtros, recorte y normalización
 │   ├── estadisticas.py      # Estadísticos descriptivos y asimetría bilateral
-│   ├── espectral.py         # FFT, PSD (Welch) y espectrograma (STFT)
-│   ├── graficas.py          # Figuras interactivas con Plotly
-│   └── filtros.py           # Filtros digitales (pasa banda, notch, rectificación)
-├── Datos/                    # Archivos .txt de OpenSignals (no incluidos)
+│   ├── espectral.py         # FFT, PSD y espectrograma
+│   ├── graficas.py          # Figuras
+│   └── filtros.py           # Filtros digitales
+├── Datos/                    # Archivos .txt de OpenSignals
 ├── requirements.txt
 └── README.md
 ```
