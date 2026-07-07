@@ -65,9 +65,11 @@ STFT_NOVERLAP_DEFAULT: int = 128    # Traslape entre ventanas del espectrograma
 # ---------------------------------------------------------------------------
 # Nombre visible (UI) -> sufijo usado en el nombre de archivo
 PARTICIPANTES: dict[str, str] = {
-    "Ale": "ale",
-    "Andre": "andre",
-    "Sandro": "sandro",
+    "Publ1": "publ1",
+    "Publ2": "publ2",
+    "Priv1": "priv1",
+    "Priv2": "priv2",
+    "Priv3": "priv3",
 }
 
 # Nombre visible (UI) -> prefijo usado en el nombre de archivo
