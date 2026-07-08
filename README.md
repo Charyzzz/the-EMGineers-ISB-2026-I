@@ -26,8 +26,9 @@ the-EMGineers/
 ├── Proyecto/                    # Carpeta del proyecto del curso
 │   ├── Software/                # Software (códigos) del proyecto
 │   ├── Hardware/                # Hardware del proyecto
-│   ├── Raw/                     # Archivos utilizados (Data)
-└── ├── Proyecto_final.md
+│   ├── informe_final.pdf        # Informe IEEE del proyecto
+│   ├── poster.png               # Poster del proyecto
+└── └── Proyecto_description.md
 ```
 ---
 
