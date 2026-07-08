@@ -23,9 +23,10 @@ the-EMGineers/
 │   ├── Lab1
 │   ├── Lab2
 │   └── ...
-├── Proyecto/                    # Carpeta del proyecto del curso
-│   ├── Software/                # Software (códigos) del proyecto
+├── Proyecto/                    # Carpeta con los archivos del proyecto final del curso
 │   ├── Hardware/                # Hardware del proyecto
+│   ├── Software/                # Software (códigos) del proyecto
+│   ├── QR_app.jpeg              # QR para ingresar a la aplicación de asimetría muscular para señales de BITalino.
 │   ├── informe_final.pdf        # Informe IEEE del proyecto
 │   ├── poster.png               # Poster del proyecto
 └── └── Proyecto_description.md
