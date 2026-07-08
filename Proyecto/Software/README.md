@@ -6,27 +6,37 @@ electromiografía de superficie.**
 
 ## Descripción
 
-Aplicación web interactiva desarrollada en **Streamlit** para visualizar y
-analizar señales EMG de superficie (trapecio derecho e izquierdo)
-adquiridas con **BITalino** a través de **OpenSignals**, durante tres
-condiciones experimentales que simulan el uso de transporte público:
+El archivo .ipynb para el procesamiento de las señales se encuentra en 
+**processing_all_signal.ipynb**. En él se aplica el filtrado correspondiente
+a cada señal adquirida y se grafica una comparación bilateral para el par
+muscular del trapecio de cada participante, así como su FFT, periodograma
+Welch y el RMS. <br>
+Asimismo, se cuenta con una aplicación web interactiva desarrollada
+en **Streamlit** para visualizar y analizar señales EMG de superficie (trapecio
+derecho e izquierdo) adquiridas con **BITalino** a través de **OpenSignals**,
+durante tres condiciones experimentales que simulan el uso de transporte público:
 Basal, Una Asa y Doble Asa.
 
 ## Estructura del proyecto
 
 ```
 Proyecto/
-├── app.py                  # Aplicación principal Streamlit
-├── config.py                # Constantes, rutas y parámetros globales
+├── Raw/                         # Archivos .txt de OpenSignals
+│   ├── basal_trapecio_priv1.txt
+│   ├── basal_trapecio_priv2.txt
+│   └── ...
 ├── utils/
-│   ├── lectura.py           # Localización, lectura y conversión
-│   ├── procesamiento.py     # Pipeline de filtros, recorte y normalización
-│   ├── estadisticas.py      # Estadísticos descriptivos y asimetría bilateral
-│   ├── espectral.py         # FFT, PSD y espectrograma
-│   ├── graficas.py          # Figuras
-│   └── filtros.py           # Filtros digitales
-├── Datos/                    # Archivos .txt de OpenSignals
+│   ├── lectura.py               # Localización, lectura y conversión
+│   ├── procesamiento.py         # Pipeline de filtros, recorte y normalización
+│   ├── estadisticas.py          # Estadísticos descriptivos y asimetría bilateral
+│   ├── espectral.py             # FFT, PSD y espectrograma
+│   ├── graficas.py              # Figuras
+│   └── filtros.py               # Filtros digitales
+├── app.py                       # Aplicación principal Streamlit
+├── config.py                    # Constantes, rutas y parámetros globales
+├── processing_all_signal.ipynb  # ipynb independiente que procesa y plotea todas las señales
 ├── requirements.txt
+├── proyecto_inicio.md           # Breve resumen del concepto del proyecto (Inicio del ciclo 2026-I)
 └── README.md
 ```
 
