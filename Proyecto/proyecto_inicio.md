@@ -1,4 +1,4 @@
-# Proyecto Final
+# Proyecto Concepto
 
 ## Introducción
 El transporte de cargas en estudiantes, especialmente mediante mochilas y bolsos, genera cambios biomecánicos que pueden afectar tanto la postura como el equilibrio corporal. En particular cuando la carga se distribuye de manera asimétrica el cuerpo tiende a realizar compensaciones como la inclinación del tronco o la elevación de un hombro con el objetivo de mantener estable el centro de masa [1].
@@ -18,7 +18,7 @@ El registro de datos se realiza durante trayectos reales en transporte público.
 El Índice de Asimetría Muscular (IAM) se calcula como:
 
 $$
-IAM = \frac{\left| RMS_{derecho} - RMS_{izquierdo} \right|}{\frac{RMS_{derecho} + RMS_{izquierdo}}{2}} \times 100\%
+IAM = \frac{RMS_{mayor} - RMS_{menor}}{RMS_{mayor}} \times 100\%
 $$
 
 Un IAM >10-15% indica descompensación clínicamente relevante en literatura de simetría espinal; en grupos con carga asimétrica (como bolso), confirmaría la hipótesis [4].
