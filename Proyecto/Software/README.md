@@ -10,7 +10,7 @@ El archivo .ipynb para el procesamiento de las señales se encuentra en
 **processing_all_signal.ipynb**. En él se aplica el filtrado correspondiente
 a cada señal adquirida y se grafica una comparación bilateral para el par
 muscular del trapecio de cada participante, así como su FFT, periodograma
-Welch y el RMS. <br>
+Welch y el RMS. <br> <br>
 Asimismo, se cuenta con una aplicación web interactiva desarrollada
 en **Streamlit** para visualizar y analizar señales EMG de superficie (trapecio
 derecho e izquierdo) adquiridas con **BITalino** a través de **OpenSignals**,
